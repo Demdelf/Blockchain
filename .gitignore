@@ -1,0 +1,5 @@
+# Project exclude paths
+/.gradle/
+/Blockchain/task/build/
+/Problems/Print strings in the reverse order/out/
+/Problems/Print strings in the reverse order/out/production/classes/

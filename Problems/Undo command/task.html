@@ -1,0 +1,10 @@
+<b>Undo command</b> <a class="right" href="https://hyperskill.org/learn/step/5160">Open on JetBrains Academy</a><br/><br/><html>
+ <head></head>
+ <body>
+  <p>Write two classes which represent the Command pattern, <code>CommandMove</code> and <code>CommandPickItem</code>.</p> 
+  <p>These classes should also support <em>undo</em>. They should implement the entity movement on the 2D and item picking. The x-axis on&nbsp;the map goes from left to right, the y-axis goes from bottom to top.</p> 
+  <p>The inventory of the entity has <code>getInventoryLength()</code> slots starting from 0, and each slot can contain only one item. The entity should pick an item into a slot with least possible index (slots with nothing inside is <code>null</code>). If all slots of an entity are filled with some item, then entity should not place this item in its inventory.</p> 
+  <p>To undo, you should revert the changes made to the entity, so the coordinates and the inventory of the entity before <code>execute()</code> and after <code>undo()</code> should be the same.</p> 
+  <p>[ALERT-warning]There is no input data in this problem. Downloading the tests will give you an empty file.[/ALERT]</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 Mb</font><br><font color="gray">Time limit: 5s</font><br><br><br/><a href="https://hyperskill.org/learn/step/7762">Show topic summary</a>
